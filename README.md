@@ -1,34 +1,30 @@
-Event Booking App
+# Event Booking App
 
-Overview
+# Overview
 
-This is a Next.js-based Event Booking Application that allows users to browse, book, and manage events. The app is built with modern web technologies, ensuring a seamless and responsive user experience.
+Implement a web application that allows users to book events from pre-defined slots in the calendar.
 
-Features
+# Features
 
-Event listing and search functionality
+1) User can book for time slot
 
-User authentication and authorization
+2) Calendar view should be scoped to a week where user can change the week to browse.
 
-Event booking and cancellation
+3) Event booking and cancellation
 
-Responsive UI built with TailwindCSS
+4) Admin can view all timeslots and see if any user signed up for it
 
-API integration for event data management
+5) API integration for event data management
 
-Tech Stack
+6) Time slot should accept only one user. If any user already signed up for time slot, the slot should still be visible in the calendar view, but will not allow user to sign up for it
+
+# Tech Stack
 
 Frontend: Next.js, React, TypeScript, TailwindCSS
 
 Backend: Next.js API routes
 
-Database: (Specify if applicable, e.g., MongoDB, PostgreSQL)
-
-Authentication: (Specify if using NextAuth.js, Firebase, etc.)
-
-State Management: (Specify if using Redux, Zustand, etc.)
-
-Prerequisites
+# Prerequisites
 
 Ensure you have the following installed:
 
@@ -36,7 +32,7 @@ Node.js (>= 16.x)
 
 npm or yarn
 
-Installation
+# Installation
 
 # Clone the repository
 git clone <repository-url>
@@ -45,13 +41,16 @@ git clone <repository-url>
 cd event-booking-app
 
 # Install dependencies
-npm install  # or yarn install
+npm install 
 
 Running the Application
 
 Development Mode
 
-npm run dev  # or yarn dev
+npm run dev
+
+# Start the production server
+npm start  # or yarn start
 
 This starts the app in development mode at http://localhost:3000.
 
@@ -59,7 +58,4 @@ Production Mode
 
 # Build the application
 npm run build  # or yarn build
-
-# Start the production server
-npm start  # or yarn start
 

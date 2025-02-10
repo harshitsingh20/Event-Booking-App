@@ -77,14 +77,14 @@ npm run dev
 # Vercel Live Link
 https://event-booking-app-lac.vercel.app/
 
-#Images
-##Calendar View
+# Images
+## Calendar View
 ![image](https://github.com/user-attachments/assets/a5d35d55-36d4-4d24-a56b-de8906f899bb)
 
-##User Preferences View
+## User Preferences View
 ![image](https://github.com/user-attachments/assets/963de879-1fef-4ad1-8b5c-2fec617e5737)
 
-##Admin View
+## Admin View
 ![image](https://github.com/user-attachments/assets/1252f732-ef89-4f67-bc98-047840b04083)
 
 
